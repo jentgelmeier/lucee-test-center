@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 6.74rem;
+  overflow-x: hidden;
+}
+
+
+#header {
+  background: url(../../luceeIncluded/assets/img/banner-bg.png) center;
+  background-size: cover;
+  padding: 10px;
+}
+
+#myFooter {
+  background-color: #449caf;
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+} 
