@@ -18,7 +18,7 @@
 	<!--- OnRequestStart() method	 --->
 	<cffunction  name="onRequestStart" returntype="boolean">
 		<cfargument  name="targetPage" type="string" required="true">
-		<!--- enter '?resyartApp' at end of URL to restart App and update components --->
+		<!--- enter '?restartApp' at end of URL to restart App and update components --->
 		<cfif isDefined('url.restartApp')>
 			<cfset this.onApplicationStart() />
 		</cfif>
